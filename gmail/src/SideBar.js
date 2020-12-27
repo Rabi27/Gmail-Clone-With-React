@@ -16,7 +16,7 @@ import PhoneIcon from '@material-ui/icons/Phone'
 
 function SideBar(){
     return (
-        <div>
+        <div className="sidebar">
     <Button startIcon={ <AddIcon fontSize="large"/>}
      className="sidebar-compose"
     >Compose
