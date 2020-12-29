@@ -13,6 +13,8 @@ import PeopleIcon from '@material-ui/icons/People'
 import LocalOfferIcon from '@material-ui/icons/LocalOffer'
 
 import Section from './Section'
+import EmailRow from './EmailRow'
+
 function EmailList(){
     return (
         <div className="emailList">
@@ -63,6 +65,27 @@ function EmailList(){
 
 <Section Icon={LocalOfferIcon} 
                 title="Promotions" color="green" />
+            </div>
+
+            <div className="emailList-list">
+                <EmailRow
+
+                title="YAHOO"
+                subject="OOGA BOOGA"
+                description="i am increasing the size of description TO SEE THE ELLIPSIES,NO ELLIPIES SO FAR"
+                time = "11pm"
+
+                />
+
+                <EmailRow
+
+                title="YAHOO"
+                subject="OOGA BOOGA"
+                description="Testing it"
+                time = "11pm"
+
+                />
+
             </div>
 
         </div>
